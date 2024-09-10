@@ -1,0 +1,33 @@
+body{
+    background-color: gray;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: orange;
+    box-shadow: 10px 5px 5px dimgray;
+}
+.form-busca{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 10px 5px 5px dimgray;
+}
+.info{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    box-shadow: 10px 5px 5px dimgray;
+
+}
