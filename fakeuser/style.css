@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+
+
+body{
+    background-color: beige;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    color: beige;
+    padding: 10px;
+    font-family: "Handjet";
+    box-shadow: 0 0 10px black;
+}
+@keyframes opcsfade {
+    from {background-color: darkolivegreen;}
+    to {background-color: beige;}
+    from {color: beige;}
+    to {color: darkolivegreen;}
+  }
+.opcs:hover{
+    border-radius: 10px;
+    padding: 2px;
+    animation-name: opcsfade;
+    animation-duration: 1s;
+}
+.formFakeUser{
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;   
+    color: beige;
+    font-size: 25px;
+    box-shadow: 0 0 10px black;
+}
+#getUser{
+    background-color: beige;
+    color: green;
+}
+.allFakeUsers{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.FakeUsers{
+    display: flex;
+    flex-direction: column;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+img{
+    border-radius: 10px;
+}
