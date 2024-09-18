@@ -24,14 +24,13 @@ body{
   }
 .opcs:hover{
     border-radius: 10px;
-    padding: 2px;
     animation-name: opcsfade;
     animation-duration: 1s;
 }
 .formFakeUser{
     background-color: darkolivegreen;
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     gap: 7px;   
