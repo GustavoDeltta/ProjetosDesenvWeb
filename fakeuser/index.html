@@ -10,9 +10,9 @@
 <body>
     <h1 id="title">Ramdom Users</h1>
     <div class="formFakeUser">
-        <input value="aletorio" type="radio"/><a class="opcs" >Aleatório</a> 
-        <input value="male" type="radio"/><a class="opcs" >Homem</a>
-        <input value="female" type="radio"/><a class="opcs" >Mulher</a>
+        <input value="" type="radio" name="genero"/><a class="opcs" >Aleatório</a> 
+        <input value="male" type="radio" name="genero"/><a class="opcs" >Homem</a>
+        <input value="female" type="radio" name="genero"/><a class="opcs" >Mulher</a>
         <a id="quant"> |  Quantidade:</a>
         <select>
             <option>1</option>
@@ -26,25 +26,13 @@
     <hr>
     <div class="allFakeUsers">
         <div class="FakeUsers">
-            <img src="https://i1.sndcdn.com/artworks-TyiS74JXtNSzvhci-SDskMg-t500x500.jpg">
+            <div class="image">
+                <img class="img" src=""/> 
+            </div>
             <p><b>Nome: </b> <span>Fulano de tal</span></p>
             <p><b>Email: </b> <span>fulano@gmail.com</span></p>
-            <p><b>Nascimento: </b> <span>idade</span></p>
-            <p><b>Endereço: </b> <span>Rua da bala</span></p>
-        </div>
-        <div class="FakeUsers">
-            <img src="https://i1.sndcdn.com/artworks-TyiS74JXtNSzvhci-SDskMg-t500x500.jpg">
-            <p><b>Nome: </b> <span>Fulano de tal</span></p>
-            <p><b>Email: </b> <span>fulano@gmail.com</span></p>
-            <p><b>Nascimento: </b> <span>idade</span></p>
-            <p><b>Endereço: </b> <span>Rua da bala</span></p>
-        </div>
-        <div class="FakeUsers">
-            <img src="https://i1.sndcdn.com/artworks-TyiS74JXtNSzvhci-SDskMg-t500x500.jpg">
-            <p><b>Nome: </b> <span>Fulano de tal</span></p>
-            <p><b>Email: </b> <span>fulano@gmail.com</span></p>
-            <p><b>Nascimento: </b> <span>idade</span></p>
-            <p><b>Endereço: </b> <span>Rua da bala</span></p>
+            <p><b>Idade: </b> <span>idade</span></p>
+            <p><b>Cidade: </b> <span>Rua da bala</span></p>
         </div>
     </div>
     <script src="code.js"></script>   
