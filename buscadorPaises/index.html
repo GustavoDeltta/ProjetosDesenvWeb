@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Buscador de Países</h1>
+    <div class="subHeader">
+        <div class="inputSearch">
+            <img src="images/lupa.png" id="search"><input type="text" placeholder="Insira o nome do país.">
+        </div>
+        <div class="filters">
+            <input class="options" type="radio" name="filter" checked/> Todos
+            <input class="options" type="radio" name="filter" checked/> América
+            <input class="options" type="radio" name="filter" checked/> Europa
+            <input class="options" type="radio" name="filter" checked/> Ásia
+            <input class="options" type="radio" name="filter" checked/> Africa
+        </div>
+    </div>
+    <hr/>
+    <h2>Total de países: <span id="amountCountries">250</span></h2>
+    <div class="allCountries">
+        <div class="country">
+            <img 
+                class="flagCountry"
+                width="150px"
+                alt="Bandeira do pais"              src="images/Flag_of_Brazil.svg.png"
+            />
+            <p>Brasil</p>
+        </div>
+        <div class="country">
+            <img 
+                class="flagCountry"
+                width="150px"
+                alt="Bandeira do pais"              src="images/Flag_of_Brazil.svg.png"
+            />
+            <p>Brasil</p>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
