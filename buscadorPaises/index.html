@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buscador de Países</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Buscador de Países</h1>
     <div class="subHeader">
         <div class="inputSearch">
-            <img src="images/lupa.png" id="search"><input type="text" placeholder="Insira o nome do país.">
+            <img src="images/lupa.png" id="search">
+            <input type="text" placeholder="Insira o nome do país." onkeyup="searchCountry(this.value)">
         </div>
         <div class="filters">
             <div class="options">
@@ -32,14 +33,7 @@
     </div>
     <hr/>
     <h2>Total de países: <span id="amountCountries">250</span></h2>
-    <div class="allCountries">
-        <div class="country">
-            <p>Brasil</p>
-        </div>
-        <div class="country">
-            <p>Brasil</p>
-        </div>
-    </div>
+    <div class="allCountries"></div>
     <script src="code.js"></script>
 </body>
 </html>

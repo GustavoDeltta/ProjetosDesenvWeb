@@ -59,8 +59,9 @@ input{
 }
 .allCountries{
     display: flex;
-    justify-content: left;
-    gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
     background-color: #05676e74;
     padding: 15px;
     border-radius: 5px;
@@ -68,15 +69,17 @@ input{
 }
 .country{
     display: flex;
-    width: 320px;
-    height: 250px;
+    align-items: flex-start;
+    flex-direction: column;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px #ebc288;
-    background-color: #4d1d4d;
-	background-image: url('../buscadorPaises/images/Flag_of_Brazil.svg.png');    background-size: 100%;
-    background-repeat: no-repeat;
+    background-color: #4d1d4d;  
     transition: 0.2s ease-in-out;
+}
+.countryFlag{
+    border-radius: 5px;
+    width: 283px;
 }
 .country:hover{
     transform: scale(1.05);
